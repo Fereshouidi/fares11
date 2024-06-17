@@ -1,5 +1,5 @@
 export function updatePassenger ( data){
-    fetch(`http://192.168.109.117:3315/api/passenger/`, {
+    fetch(`https://192.168.109.117:3315/api/passenger/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
